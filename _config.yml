@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Rishi Das"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "I am currently enrolled in a joint PhD program at the Indian Institute of Technology Bombay, India, and Monash University, Melbourne, Australia. My research lies in numerical analysis, with a particular focus on mixed finite element methods, preconditioning techniques, and related areas."
+  location         : "Mumbai, India"
+  employer         : "Indian Institute of Technology Bombay, India & Monash University, Melbourne, Australia"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rishi.das@iitb.ac.in, rishi.das@monash.edu" 
 
   # Academic websites
   academia         : # URL
