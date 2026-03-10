@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 2"
+title: "Partial Differential Equations (MA 515)"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Teaching Assistant"
+permalink: /teaching/pde-iitb-2023
+venue: "Indian Institute of Technology Bombay"
+date: 2024-01-01
+location: "Mumbai, India"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Course Instructor: **Prof. Harsha Hutridurga**
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Semester: **Spring 2023–24**
