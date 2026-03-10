@@ -13,9 +13,8 @@ My research focuses on **numerical analysis of partial differential equations**,
 
 - Mixed finite element methods
 - Operator preconditioning
-- Numerical linear algebra
 - Nonlinear PDEs
-- Darcy–Forchheimer and related flow models
+- Fluid flow in porous media
 
 My PhD supervisors are:
 
@@ -23,4 +22,4 @@ My PhD supervisors are:
 - Prof. Amiya Kumar Pani  
 - Prof. Harsha Hutridurga
 
-I develop robust numerical methods and efficient solvers for nonlinear problems arising in fluid flow and porous media.
+I develop robust numerical methods and preconditioners for problems arising in fluid flow and porous media.
