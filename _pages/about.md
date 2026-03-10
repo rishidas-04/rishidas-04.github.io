@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student in Mathematics currently enrolled in a joint PhD program between 
 [Indian Institute of Technology Bombay](https://www.iitb.ac.in) (India) and 
-[Monash University](https://www.monash.edu) (Australia). I did my Masters in Pure Mathematics with specialisation in Abstract Harmonic Hnalysis and Fourier Analysis from [Ballygunge Science College](https://www.caluniv.ac.in/campuses/campus-3.html).
+[Monash University](https://www.monash.edu) (Australia). I did my Masters in Pure Mathematics with specialisation in Abstract Harmonic Analysis and Fourier Analysis from [Ballygunge Science College](https://www.caluniv.ac.in/campuses/campus-3.html).
 
 Currently my research focuses on numerical analysis of partial differential equations, particularly:
 
