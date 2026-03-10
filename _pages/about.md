@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student in Mathematics currently enrolled in a joint PhD program between 
 [Indian Institute of Technology Bombay](https://www.iitb.ac.in) (India) and 
-[Monash University](https://www.monash.edu) (Australia). I did my Masters in Pure Mathematics with specialisation in Abstract Harmonic Hnalysis and Fourier Analysis from Ballygunge Science College.
+[Monash University](https://www.monash.edu) (Australia). I did my Masters in Pure Mathematics with specialisation in Abstract Harmonic Hnalysis and Fourier Analysis from [Ballygunge Science College](https://www.caluniv.ac.in/campuses/campus-3.html).
 
 Currently my research focuses on numerical analysis of partial differential equations, particularly:
 
@@ -20,8 +20,8 @@ Currently my research focuses on numerical analysis of partial differential equa
 
 My PhD supervisors are:
 
-- Prof. Ricardo Ruiz Baier  
-- Prof. Amiya Kumar Pani  
-- Prof. Harsha Hutridurga
+- [Prof. Ricardo Ruiz Baier](https://research.monash.edu/en/persons/ricardo-ruiz-baier/)  
+- [Prof. Amiya Kumar Pani](https://www.bits-pilani.ac.in/goa/amiya-kumar-pani)  
+- [Prof. Harsha Hutridurga](https://hutridurga.wordpress.com/)
 
 I develop robust numerical methods and preconditioners for problems arising in fluid flow and porous media.
