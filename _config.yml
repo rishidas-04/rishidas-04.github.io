@@ -25,7 +25,7 @@ repository : "rishidas-04/rishidas-04.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
- avatar : "images/IMG_20251230_005820_180.jpg"
+ avatar : "C:\Users\drish\Downloads\rishi"
   name             : "Rishi Das"
   # pronouns         : # example: "she/her"  
   # bio              : "I am currently enrolled in a joint PhD program at the Indian Institute of Technology Bombay, India, and Monash University, Melbourne, Australia. My research lies in numerical analysis, with a particular focus on mixed finite element methods, preconditioning techniques, and related areas."
