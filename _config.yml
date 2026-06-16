@@ -28,8 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : #"Mumbai"
-  employer         : "Indian Institute of Technology Bombay"
-   employer         : "Monash University, Clayton campus"
+  employer         : "Indian Institute of Technology Bombay and Monash University, Clayton campus"
   uri              : # URL
   email            : "rishi.das@iitb.ac.in" 
 
