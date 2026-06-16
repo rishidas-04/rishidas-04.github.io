@@ -23,7 +23,7 @@ repository               : "rishidas-04/rishidas-04.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/rishi_profile_pic.jpg"
+  avatar           : "/images/bio-photo.jpg"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
