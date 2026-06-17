@@ -6,6 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently in the fifth year of a joint PhD program in Mathematics between the Indian Institute of Technology Bombay and Monash University (Clayton campus). My doctoral research is supervised by [Prof. Ricardo Ruiz Baier](https://ruizbaier.github.io/), [Prof. Amiya Kumar Pani](https://www.bits-pilani.ac.in/goa/amiya-kumar-pani), and [Prof. Harsha Hutridurga](https://hutridurga.wordpress.com/). I obtained my Master’s degree in Pure Mathematics from Ballygunge Science College, University of Calcutta, where I specialized in Abstract Harmonic Analysis and Fourier Analysis.
+I am currently in the fifth year of a joint PhD program in Mathematics between the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) and [Monash University (Clayton campus)](https://www.monash.edu/). My doctoral research is supervised by [Prof. Ricardo Ruiz Baier](https://ruizbaier.github.io/), [Prof. Amiya Kumar Pani](https://www.bits-pilani.ac.in/goa/amiya-kumar-pani), and [Prof. Harsha Hutridurga](https://hutridurga.wordpress.com/). I obtained my Master’s degree in Pure Mathematics from [Ballygunge Science College, University of Calcutta](https://www.caluniv.ac.in/campuses/campus-3), where I specialized in Abstract Harmonic Analysis and Fourier Analysis.
 
-My research lies in the numerical analysis of partial differential equations, with a focus on mixed finite element methods, preconditioning, and perturbed saddle-point problems. My work aims at the development and analysis of stable, structure-preserving, parameter-robust discretisations, and robust preconditioners for problems arising primarily in fluid flow in porous media.
+My areas of research interest include core topics in numerical analysis and scientific computing, in particular:
+
+- Robust analysis and design of mixed finite element methods
+- Building robust preconditioners
+- Perturbed saddle-point problems
+- Nonlinear PDEs
+- Fluid flow in porous media
