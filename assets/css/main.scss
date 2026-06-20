@@ -41,6 +41,8 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-body {
+.page__content,
+.page__content p,
+.page__content li {
   font-family: 'Crimson Text', "Times New Roman", serif;
 }
