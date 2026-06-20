@@ -12,7 +12,9 @@ I am currently in the fifth year of a joint PhD program in Mathematics between t
 
 ## Research Interests
 
-My research interests lie in core areas of numerical analysis and scientific computing, in particular:
+My research interests lie in core areas of numerical analysis and scientific computing, with a focus on the design and analysis of efficient numerical methods. In particular, I am interested in fast implementations and the development of robust preconditioning techniques for challenging problems.
+
+During my PhD, I have primarily explored the following areas:
 
 - Robust analysis and design of mixed finite element methods
 - Building robust preconditioners
