@@ -3,9 +3,6 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -41,8 +38,80 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ===== Global font (SIAM-like serif) ===== */
 .page__content,
 .page__content p,
 .page__content li {
   font-family: 'Crimson Text', "Times New Roman", serif;
+}
+
+/* ===== SIAM-style Publications ===== */
+
+/* each publication block */
+.archive__item {
+  margin-bottom: 12px !important;
+  padding-left: 10px;
+  border-left: 2px solid #eee;
+}
+
+/* main text */
+.archive__item p {
+  font-size: 0.95rem !important;
+  line-height: 1.45 !important;
+  margin: 0 !important;
+}
+
+/* title */
+.archive__item p em {
+  display: block;
+  font-style: italic;
+  font-size: 0.95rem;
+  margin: 2px 0;
+}
+
+/* journal / year line */
+.archive__item p + p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* links */
+.archive__item a {
+  font-size: 0.8rem;
+  color: #0056b3;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.archive__item a:hover {
+  text-decoration: underline;
+}
+
+/* bold your name nicely */
+.archive__item strong {
+  font-weight: 600;
+}
+
+/* headings */
+h2 {
+  font-size: 1.3rem !important;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3px;
+}
+
+/* numbering */
+ol {
+  padding-left: 18px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+/* page width (important for SIAM feel) */
+.page__content {
+  max-width: 700px;
 }
