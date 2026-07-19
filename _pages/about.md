@@ -12,7 +12,7 @@ I am pursuing a joint PhD in Mathematics at the [Indian Institute of Technology 
 
 ## Research Interests
 
-My research interests lie in core areas of numerical analysis and scientific computing, with a focus on the design and analysis of efficient numerical methods. In particular, I am interested in fast implementations and the development of robust preconditioning techniques for challenging problems.
+My research interests lie in numerical analysis and scientific computing, with a focus on the design, analysis, and efficient implementation of numerical methods for partial differential equations. In particular, I am interested in robust preconditioning, structure-preserving methods for multiphysics flow problems, and numerical methods for multiscale systems.
 
 During my PhD, I have primarily explored the following areas:
 
