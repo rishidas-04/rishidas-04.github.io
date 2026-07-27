@@ -14,6 +14,21 @@
     {% endif %}
   </div>
 
+   <!-- University logos -->
+  <div class="author__institution-logos">
+    <a href="https://www.monash.edu/" target="_blank">
+      <img src="{{ 'images/monash-university-logo.jpg' | relative_url }}"
+           alt="Monash University"
+           class="institution-logo monash-logo">
+    </a>
+
+    <a href="https://www.iitb.ac.in/" target="_blank">
+      <img src="{{ 'images/IIT Bombay_Logo.jpg' | relative_url }}"
+           alt="IIT Bombay"
+           class="institution-logo iitb-logo">
+    </a>
+  </div>
+  
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
