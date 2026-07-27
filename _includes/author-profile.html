@@ -14,20 +14,43 @@
     {% endif %}
   </div>
 
-   <!-- University logos -->
-  <div class="author__institution-logos">
-    <a href="https://www.monash.edu/" target="_blank">
-      <img src="{{ 'images/monash-university-logo.jpg' | relative_url }}"
-           alt="Monash University"
-           class="institution-logo monash-logo">
-    </a>
+  <!-- University logos -->
+<div style="
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+">
 
-    <a href="https://www.iitb.ac.in/" target="_blank">
-      <img src="{{ 'images/IIT Bombay_Logo.jpg' | relative_url }}"
-           alt="IIT Bombay"
-           class="institution-logo iitb-logo">
-    </a>
-  </div>
+  <a href="https://www.monash.edu/" target="_blank"
+     style="display: inline-block; width: auto;">
+    <img
+      src="{{ '/images/monash-logo.png' | relative_url }}"
+      alt="Monash University"
+      style="
+        width: 95px !important;
+        height: auto !important;
+        max-width: 95px !important;
+        margin: 0 !important;
+      ">
+  </a>
+
+  <a href="https://www.iitb.ac.in/" target="_blank"
+     style="display: inline-block; width: auto;">
+    <img
+      src="{{ '/images/iitb-logo.png' | relative_url }}"
+      alt="IIT Bombay"
+      style="
+        width: 50px !important;
+        height: auto !important;
+        max-width: 50px !important;
+        margin: 0 !important;
+      ">
+  </a>
+
+</div>
   
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
