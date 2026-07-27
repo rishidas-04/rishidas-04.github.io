@@ -322,3 +322,36 @@
     }
   }
 }
+
+/* University logos in author sidebar */
+.author__institution-logos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.author__institution-logos a {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+}
+
+.author__institution-logos img {
+  display: block;
+  object-fit: contain;
+  max-width: none !important;
+}
+
+.author__institution-logos .monash-logo {
+  width: 90px !important;
+  height: auto !important;
+}
+
+.author__institution-logos .iitb-logo {
+  width: 48px !important;
+  height: auto !important;
+}
