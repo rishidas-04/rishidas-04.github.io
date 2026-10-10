@@ -18,5 +18,5 @@ During my PhD, I have primarily explored the following areas:
 
 - Flow-transport problems in porous media
 - Robust analysis and design of mixed finite element methods
-- Building robust preconditioners
+- Operator preconditioning
 - Perturbed saddle-point problems
