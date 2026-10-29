@@ -1,3 +1,4 @@
+
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */
@@ -5,7 +6,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 1.2em;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -36,40 +37,90 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  margin-bottom: 0.4em;
+  line-height: 1.15;
 
   & + .page__meta {
-    margin-top: -0.5em;
+    margin-top: -0.3em;
   }
 }
 
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  line-height: 1.4;
+  margin-bottom: 0.8em;
 }
 
 .page__content {
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    line-height: 1.3;
+  }
+
   h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.25em;
     border-bottom: 1px solid var(--global-border-color);
   }
 
-  p, li, dl {
+  p,
+  li,
+  dl {
     font-size: 1em;
+    line-height: 1.5;
   }
 
-  /* paragraph indents */
+  /* Paragraph spacing */
   p {
-    margin: 0 0 $indent-var;
+    margin-top: 0;
+    margin-bottom: 0.7em;
 
-    /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
-        margin-top: -($indent-var);
+        margin-top: -0.3em;
       }
     }
+  }
+
+  /* Lists */
+  ul,
+  ol {
+    margin-top: 0.35em;
+    margin-bottom: 0.7em;
+    padding-left: 1.5em;
+  }
+
+  li {
+    margin-bottom: 0.3em;
+    padding-left: 0.1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    ul,
+    ol {
+      margin-top: 0.2em;
+      margin-bottom: 0.2em;
+    }
+  }
+
+  /* Reduce gap between headings and the following content */
+  h2 + ul,
+  h2 + ol,
+  h2 + p,
+  h3 + ul,
+  h3 + ol,
+  h3 + p {
+    margin-top: 0.3em;
   }
 
   a {
@@ -85,13 +136,14 @@
   }
 
   dt {
-    margin-top: 1em;
+    margin-top: 0.6em;
     font-family: $sans-serif;
     font-weight: bold;
   }
 
   dd {
     margin-left: 1em;
+    margin-bottom: 0.4em;
     font-family: $sans-serif;
     font-size: $type-size-6;
   }
@@ -100,24 +152,44 @@
     font-size: $type-size-6;
   }
 
-  /* blockquote citations */
+  /* Blockquote spacing */
+  blockquote {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+
   blockquote + .small {
-    margin-top: -1.5em;
+    margin-top: -0.8em;
     padding-left: 1.25rem;
+  }
+
+  /* Compact publication entries */
+  li strong {
+    font-weight: 700;
+  }
+
+  li em {
+    font-style: italic;
   }
 }
 
+/* ==========================================================================
+   PAGE HERO
+   ========================================================================== */
+
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 1.2em;
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
+    margin-bottom: 1.2em;
+    padding: 2em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -182,7 +254,7 @@
   border-radius: $border-radius 0 $border-radius 0;
 
   @include breakpoint($large) {
-    padding: 5px 10px;
+    padding: 4px 8px;
   }
 
   a {
@@ -191,13 +263,13 @@
   }
 }
 
-/*
-   Social sharing
+/* ==========================================================================
+   SOCIAL SHARING
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
+  margin-top: 1.2em;
+  padding-top: 0.6em;
   border-top: 1px solid var(--global-border-color);
 
   @include breakpoint(max-width $small) {
@@ -215,18 +287,18 @@
 }
 
 .page__share-title {
-  margin-bottom: 10px;
+  margin-bottom: 0.4em;
   font-size: $type-size-6;
   text-transform: uppercase;
 }
 
-
-/*
-   Page meta
+/* ==========================================================================
+   PAGE META
    ========================================================================== */
 
 .page__meta {
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   color: var(--global-text-color-light);
   font-family: $sans-serif;
   font-size: $type-size-6;
@@ -241,14 +313,13 @@
 }
 
 .page__meta-title {
-  margin-bottom: 10px;
+  margin-bottom: 0.4em;
   font-size: $type-size-6;
   text-transform: uppercase;
 }
 
-
-/*
-   Page taxonomy
+/* ==========================================================================
+   PAGE TAXONOMY
    ========================================================================== */
 
 .page__taxonomy {
@@ -257,15 +328,15 @@
   }
 
   strong {
-    margin-right: 10px;
+    margin-right: 0.5em;
   }
 }
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
+  margin-right: 0.3em;
+  margin-bottom: 0.4em;
+  padding: 3px 8px;
   text-decoration: none;
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
@@ -276,26 +347,26 @@
   }
 }
 
-
-/*
-   Comments
+/* ==========================================================================
+   COMMENTS
    ========================================================================== */
 
 .page__comments {
   @include full();
+  margin-top: 1em;
 }
 
 .page__comments-title {
-  margin-top: 2rem;
-  margin-bottom: 10px;
-  padding-top: 2rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding-top: 1em;
   font-size: $type-size-6;
   border-top: 1px solid var(--global-border-color);
   text-transform: uppercase;
 }
 
 .page__comments-form {
-  padding: 1em;
+  padding: 0.7em;
   background: var(--global-border-color);
   transition: $global-transition;
 
@@ -315,7 +386,7 @@
 
 .comment {
   @include clearfix();
-  margin: 1em 0;
+  margin: 0.6em 0;
 
   &:not(:last-child) {
     border-bottom: 1px solid var(--global-border-color);
@@ -324,34 +395,34 @@
 
 .comment__avatar-wrapper {
   float: left;
-  width: 60px;
-  height: 60px;
-
-  @include breakpoint($large) {
-    width: 100px;
-    height: 100px;
-  }
-}
-
-.comment__avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 
   @include breakpoint($large) {
     width: 80px;
     height: 80px;
-    padding: 5px;
+  }
+}
+
+.comment__avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  @include breakpoint($large) {
+    width: 65px;
+    height: 65px;
+    padding: 4px;
     border: 1px solid var(--global-border-color);
   }
 }
 
 .comment__content-wrapper {
   float: right;
-  width: calc(100% - 60px);
+  width: calc(100% - 50px);
 
   @include breakpoint($large) {
-    width: calc(100% - 100px);
+    width: calc(100% - 80px);
   }
 }
 
@@ -372,14 +443,13 @@
   }
 }
 
-
-/*
-   Related
+/* ==========================================================================
+   RELATED CONTENT
    ========================================================================== */
 
 .page__related {
-  margin-top: 2em;
-  padding-top: 1em;
+  margin-top: 1.2em;
+  padding-top: 0.6em;
   border-top: 1px solid var(--global-border-color);
   @include clearfix();
   float: left;
@@ -395,7 +465,7 @@
 }
 
 .page__related-title {
-  margin-bottom: 10px;
+  margin-bottom: 0.4em;
   font-size: $type-size-6;
   text-transform: uppercase;
 }
